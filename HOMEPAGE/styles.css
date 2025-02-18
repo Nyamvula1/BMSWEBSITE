@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-top {
+    position: relative;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.title h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.background img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+.body {
+    padding: 20px;
+}
+
+.counter {
+    text-align: center;
+    padding: 20px;
+    background-color: #e0e0e0;
+    margin-bottom: 20px;
+}
+
+.poe {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.poe div {
+    padding: 20px;
+    background-color: #ccc;
+    text-align: center;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.poe a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.news-updates img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
